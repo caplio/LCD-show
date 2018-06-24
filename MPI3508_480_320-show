@@ -24,7 +24,7 @@ elif test "$1" = "270";then
 fi
 
 if [ -b /dev/mmcblk0p7 ]; then
-  sudo cp ./usr/cmdline.txt-noobs /boot/cmdline.txt
+  sudo cp ./usr/cmdline.txt_noobs /boot/cmdline.txt
 else
    sudo cp ./usr/cmdline.txt /boot/
 fi
