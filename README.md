@@ -1,5 +1,9 @@
 LCD driver for the Raspberry PI Installation<br>
 ====================================================
+v1.7.1-20180624-caplio (fork version)<br>
+Update to support Display rotate(with touchpanel) for MPI3508_480x320 *1<br>
+ *1 some ADS7846 Touchscreen.ex...Quimat 3.5inch touch screen HDMI monitor etc..
+
 v1.7-20180320<br>
 Update to support Raspbian Version:March 2018(Release date:2018-03-13)<br>
 Update: <br>
@@ -47,6 +51,12 @@ In case of 3.5inch RPi Display(MPI3501)<br>
   ```sudo ./LCD35-show```<br><br>
 In case of 3.5" HDMI Display-B(MPI3508)<br>
   ```sudo ./MPI3508-show```<br><br>
+In case of 3.5" HDMI Display-B(MPI3508) rotating right (clockwise 90 degree)<br>
+  ```sudo ./MPI3508-show 90```<br><br>
+In case of 3.5" HDMI Display-B(MPI3508) inverting rotate (clockwise 180 degree)<br>
+  ```sudo ./MPI3508-show 180```<br><br>
+In case of 3.5" HDMI Display-B(MPI3508) rotating left (counterclockwise 90 degree)<br>
+  ```sudo ./MPI3508-show 270```<br><br>
 In case of 4.0" HDMI Display(MPI4008)<br>
   ```sudo ./MPI4008-show```<br><br>
 In case of 5inch HDMI Display-B(Capacitor touch)(MPI5001):<br>
@@ -62,7 +72,7 @@ If you need to switch back to the traditional HDMI display<br>
 
 Wait a few minutes,the system will restart automaticall , enjoy with your LCD.
 -------------------------------------------------------------------------------
-The LCD-show.tar.gz also can be download from:
+The Original LCD-show.tar.gz also can be download from:
 http://www.hellolcd.com/wiki/LCD-show
 <br><br>
 
