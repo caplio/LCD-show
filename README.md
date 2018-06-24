@@ -50,13 +50,13 @@ In case of 3.2" RPi Display(MPI3201)<br>
 In case of 3.5inch RPi Display(MPI3501)<br>
   ```sudo ./LCD35-show```<br><br>
 In case of 3.5" HDMI Display-B(MPI3508)<br>
-  ```sudo ./MPI3508-show```<br><br>
+  ```sudo ./MPI3508_480_320-show```<br><br>
 In case of 3.5" HDMI Display-B(MPI3508) rotating right (clockwise 90 degree)<br>
-  ```sudo ./MPI3508-show 90```<br><br>
+  ```sudo ./MPI3508_480_320-show 90```<br><br>
 In case of 3.5" HDMI Display-B(MPI3508) inverting rotate (clockwise 180 degree)<br>
-  ```sudo ./MPI3508-show 180```<br><br>
+  ```sudo ./MPI3508_480_320-show 180```<br><br>
 In case of 3.5" HDMI Display-B(MPI3508) rotating left (counterclockwise 90 degree)<br>
-  ```sudo ./MPI3508-show 270```<br><br>
+  ```sudo ./MPI3508_480_320-show 270```<br><br>
 In case of 4.0" HDMI Display(MPI4008)<br>
   ```sudo ./MPI4008-show```<br><br>
 In case of 5inch HDMI Display-B(Capacitor touch)(MPI5001):<br>
