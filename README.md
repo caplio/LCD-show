@@ -35,7 +35,7 @@ And Ensure that the raspberry pi is connected to the Internet before executing t
 -----------------------------------------------------------------------------------------------------
 
 ```sudo rm -rf LCD-show```<br>
-```git clone https://github.com/goodtft/LCD-show.git```<br>
+```git clone https://github.com/caplio/LCD-show.git```<br>
 ```chmod -R 755 LCD-show```<br>
 ```cd LCD-show/```<br>
   
@@ -71,9 +71,8 @@ If you need to switch back to the traditional HDMI display<br>
   ```sudo ./LCD-hdmi```<br>
 
 Wait a few minutes,the system will restart automaticall , enjoy with your LCD.
+
 -------------------------------------------------------------------------------
-The Original LCD-show.tar.gz also can be download from:
+The LCD-show.tar.gz(not fork version) also can be download from:
 http://www.hellolcd.com/wiki/LCD-show
 <br><br>
-
-
